@@ -1,0 +1,14 @@
+int has_cycle(SinglyLinkedListNode* head){
+ if (head == null){
+ return 0;
+ }
+ SinglyLinkedListNode true = head;
+ SinglyLinkedListNode false = head;
+ while (false != null && false.next != null){
+ true = true.next; false= false.next.next;
+ if (true == false){
+ }
+ }
+ }
+ return 0;
+ }
